@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "./Pagination.css"
 
 const Page = (props) => {
     const disableClass = props.isDisabled ? 'disabled':''

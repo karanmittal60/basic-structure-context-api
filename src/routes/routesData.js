@@ -14,7 +14,7 @@ export const routesData = [
         key: routeRules.users,
         path: routeRules.users,
         component: Users,
-        auth: false,
+        auth: true,
         exact: false
     }
 ];
